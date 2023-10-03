@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eeeeee;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    color: #4e4d4dcc;
+}
+.digiteTarefa{
+    width: 1000px;
+    margin-left: 120px;
+    height: 100px;
+    font-size: 29px;
+    border: 0;
+    padding: 30px;
+    display: flex;
+}
+.div_digite_tarefa{
+    display: flex;
+    flex-direction: row;
+    
+}
+.adicionaTarefa{
+    background-color: green;
+    color: aliceblue;
+    width: 300px;
+    height: 100px;
+    border: 0;
+    font-size: 29px;
+}
+.tarefa_nova{
+    padding: 25px;
+    display: flex;
+    background-color: white;
+    width: 1000px;
+    margin-left: 120px;
+    height: 100px;
+}
+.tarefa_a_fazer{
+    display: flex;
+    align-items: center;
+}
+.tarefa_nova_geral{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.lixeira{
+    background-color: rgb(238, 68, 68);
+    height: 100px;
+    width: 300px;
+    border: 0;
+}
+.tarefa_a_fazer_check{
+    text-decoration: line-through;
+    color: #7c7c7ccc;
+}
